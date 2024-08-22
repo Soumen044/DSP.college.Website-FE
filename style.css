@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 1px;
+    font-family: sans-serif;
+
+}
+
+/* ----------------------------- header-------------------------------*/
+
+/*--------------head  */
+
+.box1{
+    display: grid;
+    background-color: rgb(57, 57, 57);
+    grid-template-columns: 2.5fr 2fr;
+    height: 40px;
+    margin-bottom: 0px;
+    top: 0;
+    position: sticky;
+}
+.container1 > h5:hover{
+    color: rgb(213, 242, 255);
+}
+.container1{
+    border-right: 2px solid rgb(73, 72, 72);
+}
+#wbscte{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+#wbscte > h5{
+    text-decoration: none;
+
+}
+.container10{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+}
+.mail{
+    padding-top: 10px;
+
+}
+.mail > a > i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.mail > a{
+    text-decoration: none;
+}
+#social-media{
+    display: flex;
+    color: rgb(193, 193, 193);
+    
+}
+#social-media > a{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: rgb(193, 193, 193);
+    transform: scale(1.25);
+}
+#social-media:hover{
+    color: yellow;
+}
+#social-media > a:hover{
+    color: yellow;
+}
+.login{
+    margin-left: 30px;
+    padding-top: 10px;
+    
+}
+.login > a{
+    color: rgb(193, 193, 193);
+    text-decoration: none;
+
+}
+.login > a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+/* -------------navigation-bar-----------------  */
+
+/* ----- nav ----- */
+
+.navigation-bar{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(152, 149, 149);
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: grid;
+}
+
+/* ----navbar */
+#menu{
+    width: 100%;
+}
+#menu ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0px 5px 0px 5px;
+    float: left;
+}
+#menu ul a{
+    z-index: 7;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    width: 100%;
+    height: 35px;
+    margin-top: 2px;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navi{
+    border-left: 1px solid rgb(152, 149, 149);
+    border-right: 1px solid rgb(152, 149, 149);
+    text-align: center;
+}
+#navi:hover{
+    transform: scale(1.12);
+    background-color: orange;
+    color: black;
+}
+#menu ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+    width: 150px;
+    align-items: center;
+}
+#menu ul li:hover{
+    border-left: 5px solid rgb(188, 9, 9);
+    background-color: orange;
+}
+#menu ul ul {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    display: none;
+    margin: 2px 0px;
+    padding: 0px 0px;
+}
+#menu ul ul li{
+    float: none;
+    margin-top: 0px;
+    width: 240px;
+    border: 5px;
+    padding-left: 5px;
+    background-color: orange;
+}
+#menu ul ul li:hover{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: orange;
+}
+#menu ul ul ul {
+    top: -1px;
+    left: 100%;
+}
+#menu ul ul ul li{
+    background-color: orange;
+    width: 280px;
+}
+#menu ul li:hover > ul{
+    display: block;
+}
+#carets{
+    margin-left: 10px;
+}
+
+/* ------------------------images--------------- */
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+/* -----logo */
+
+#logo {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(43, 13, 213);
+    border-radius: 100%;
+    transform: translateX( 0%);
+}
+#logo img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+/* headimg */
+
+.headimg {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgb(40, 30, 198);
+    height: 192px;
+}
+.headimg img {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 100%;
+}
+
+/* antitaggingtext */
+
+.antitaggingtext {
+    height: 19px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 213);
+    z-index: -2;
+}
+.antitaggingtext > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------------------------  main -------------------------------------------- */
+
+/* -------------------------- section1 */
+
+/* -------------- partion1 */
+
+#section1{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 2.3fr 1fr;
+    height: 710px;
+}
+.partion{
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+}
+#partion1{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.partion h1{
+    padding: 20px 2px 20px 15px;
+    font-size: 2.1rem;
+}
+.partion h1 span {
+    font-size: 3.5rem;
+    color: rgb(242, 133, 0);
+    text-shadow: 2px 2px 2px black, 2px 2px 2px black;
+}
+.explaination{
+    margin: 5px 15px 5px 15px;
+    background-color: #f0e0fb;
+    border: 1px solid rgb(151, 150, 150);
+    border-radius: 25px;
+    padding: 25px;
+}
+.explaination p{
+    font-size: 0.7rem;
+}
+.button{
+    margin-top: 10px;
+    padding: 10px 15px 10px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #ffdfa2;
+    color: black;
+}
+.button:hover{
+    transform: scale(1.02);
+    background-color: rgb(180, 254, 180);
+}
+#partion1 img{
+    border: 10px solid rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 55px;
+    width: 100%;
+    height: 60%;
+}
+
+/* -------------- partion2 */
+
+#partion2{
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+}
+.boxa{
+    width: 100%;
+    height: 150px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 25px;
+    border: 2px solid rgb(151, 150, 150);
+    background-color: #f0e0fb;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+}
+.boxa > img{
+    margin-right: 10px;
+}
+.boxa:hover{
+    transform: scale(1.05);
+    background-color: rgb(180, 254, 180);
+}
+
+/* -------------------------- section2 */
+
+#section2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1f1f1f;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider1{
+    margin: 20px;
+    padding: 20px;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* images */
+
+.image-container-x{
+    overflow-x: hidden;
+    max-width: 1368px;
+} 
+.image-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap: 0.5rem;
+    position: relative;
+    left: 0;
+    transition: .3s;
+}
+.image-wrapper > * {
+    aspect-ratio: 4 / 3;
+}
+#sliding1-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.4rem;
+    border: 5px solid rgba(255, 252, 98, 0.845);
+
+}
+
+#parts2{
+    margin: 0 auto;
+    padding: 10px 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#parts2 > p > span {
+    margin: 5 auto;
+    text-align: center;
+    display: block;
+    color: violet;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+/* -------------------------- section3 */
+
+#section3{
+    width: 90%;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 10px;
+    border: 3px solid rgb(94, 94, 94);
+    border-radius: 30px;
+    background-color: #ffecec;
+    display: grid;
+    grid-template-rows: 1fr 1.7fr;
+}
+.from-pic{
+    height: 130px;
+}
+#from-pic1{
+    font-size: 1.3rem;
+    margin: 40px 50px;
+    
+}
+#from-pic2{
+    padding: 40px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pic > p{
+    padding: 30px 50px;
+    font-size: 1.3rem;
+}
+.pic > span{
+    padding: 10px 50px;
+    font-size: 1.7rem;
+    color: rgb(59, 0, 59);
+    font-family: 'Times New Roman', Times, serif;
+}
+#from-pic2 > img{
+    margin: 15px 150px;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+    /* -------------------------- section4 */
+
+
+
+
+    /* ---------------------------------------------- footer ----------------------------------------- */
+ 
+footer{
+    margin-top: 5px;
+    border-top: 25px solid rgb(0, 57, 0);
+    background-color: rgb(28, 51, 28);
+}
+.footer{
+    display: grid;
+    grid-template-rows: 3fr 0.5fr;
+}
+
+/*-------------------------------------------- divition-x */
+
+/* --------------------- stations1 */
+
+.divition-x{
+    background-color: #114710;
+    display: grid;
+    grid-template-columns: 1.3fr 0.6fr 1.5fr;
+    
+}
+.stations1{
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 30px;
+    background-color: #093215;
+}
+.stations1 > h4{
+    font-size: 1.7rem;
+    color: rgb(255, 165, 81);
+}
+.stations1 > h3{
+    font-size: 2.3rem;
+    padding-bottom: 25px;
+    color: yellow;
+}
+#label-name{
+    font-size: 1.2rem;
+    color: gray;
+}
+#name{
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    border: 3px solid gray;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#label-email{
+    font-size: 1.2rem;
+    color: gray;
+}
+#email{
+    margin-top: 5px;
+    height: 30px;
+    width: 100%;
+    border: 3px solid gray;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#label-feedback{
+    font-size: 1.2rem;
+    color: gray;
+}
+#feedback{
+    margin-top: 5px;
+    height: 100px;
+    width: 100%;
+    border: 3px solid gray;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 15px;
+}
+#submit{
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+#submit:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.545);
+    color: black;
+    border: 2px solid black;
+}
+
+/* --------------------- stations2 */
+
+.stations2{
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 0.3fr 1fr 1fr 0.3fr;
+}
+.stations2 > h5{
+    font-size: 1.6rem;
+    color: rgb(222, 222, 222);
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    height: 50px;
+    border-bottom: 4px solid black;
+}
+.parts-y1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.parts-y1 > li >  a{
+    text-decoration: none;
+    color: white;
+}
+#footer-links:hover{
+    color: yellow;
+    transform: scale(1.6);
+}
+.parts-y2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#parts-y2n{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 10px 10px 20px 10px;
+    transform: scale(1.5)
+}
+#parts-y2n > a{
+    color: rgb(255, 255, 255);
+}
+#parts-y2n:hover{
+    color: yellow;
+    transform: scale(1.8);
+}
+.parts-y3 > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.parts-y3{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.parts-y3 > a > i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* --------------------- stations2 */
+
+.stations3{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    margin: 10px;
+    padding: 10px;
+}
+.section31{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.section31{
+    margin: 10px 2px;
+}
+.section31 > h2{
+    color: white;
+    margin: 10px 2px;
+    font-size: 1.9rem;
+}
+.section31 > h4{
+    color: white;
+    margin: 20px 2px;
+    font-size: 1rem;
+}
+.section31 > h5{
+    font-size: 1rem;
+    color: white;
+    margin: 20px 2px;
+}
+.section32{
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.section32 > iframe{
+    border-radius: 20px;
+}
+
+/* -------------------------------------- divition-y */
+
+.divition-y{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    color: gray;
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+.divition-y2 > #sd{
+    font-size: 1.4rem;
+
+}
+
+
+
+
