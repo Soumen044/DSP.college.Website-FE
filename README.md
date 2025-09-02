@@ -1,59 +1,64 @@
-# DSP.college.Website‑FE
+# DSP.college.Website-FE
 
 ## 📖 Overview
 
-This static frontend represents the homepage design for **Dasnagar Government Polytechnic College**—created as a Internship project during the 3rd semester of the **Information Technology Engineering (ITE)** diploma program under **WBSCTE**. A clean, responsive layout ideal for academic presentations or prototyping.
+This static frontend project represents the homepage design for **Dasnagar Government Polytechnic College**. It was developed as a 5th Semester major project during the Diploma in Information Technology Engineering (ITE) program under **WBSCTE**.
+
+The design focuses on a **clean, responsive layout** ideal for academic presentations or prototyping college websites.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-DSP.college.Website‑FE/
-├── index.html          # Core homepage file
-├── style.css           # Styling for layout & design
-├── README.md         
-└── images/             # Static images used throughout the page
+DSP.college.Website-FE/
+├── index.html             # Core homepage HTML file
+├── style.css              # Styling for layout & design
+├── README.md              # Project documentation
+└── images/                # Static images including college logo and visuals
+    ├── logo.png
     ├── anti_ragging.png
-    ├── board‑collage.jpg (etc.)
-    ├── collage‑pic1.png
-    ├── front‑side‑collage.jpg
+    ├── board-collage.jpg
+    ├── collage-pic1.png
+    ├── front-side-collage.jpg
     ├── harassment.png
     ├── student_welfare.png
-    ├── multiple FB_IMG_… .jpg
-    ├── IMG‑20240806‑WA0003.jpg
-    └── ..
+    ├── IMG-20240806-WA0003.jpg
+    └── ...                # Other supporting images
 ```
 
 ---
 
 ## ✨ Features
 
-- 📱 **Responsive design**: Works across mobile, tablet, and desktop.
-- 🧩 **Clear semantics**: Simple and organized HTML/CSS—great for learning or extension.
-- 🎨 **Visual storytelling**: Uses images (e.g., anti-ragging, student welfare) to communicate the college’s values and activities.
+- 📱 **Responsive design** compatible with desktops, tablets, and mobile devices
+- 🧩 **Semantic and organized HTML/CSS** for ease of understanding and extensibility
+- 🎨 **Visual emphasis** using images highlighting college activities and values
+- 🏫 Inclusion of the official college **logo** and themed images placed in the `images/` folder
 
 ---
 
-## 📸 Screenshots / Demo
+## 📸 Visual Preview
 
-*(Replace the placeholders with actual screenshot files from `assets/`, or provide in `assets/demo.gif`.)*
+Below is the college logo and sample visuals incorporated in the homepage. Replace the placeholder paths with your actual image file names as needed.
 
-| Desktop View                     | Mobile View                      |
-|----------------------------------|----------------------------------|
-| ![Desktop Screenshot](assets/desktop-screenshot.png) | ![Mobile Screenshot](assets/mobile-screenshot.png) |
+### College Logo
 
-Or include a demo GIF:
+![Dasnagar Government Polytechnic College Logo](images/logo.png)
 
-```
-![Homepage Demo](assets/demo.gif)
-```
+### Some Key Images Used
+
+- Anti-Ragging:
+  ![Anti-Ragging](images/anti_ragging.png)
+
+- Student Welfare:
+  ![Student Welfare](images/student_welfare.png)
 
 ---
 
-## 🚀 Get It Running (No Installation Needed)
+## 🚀 How to Run
 
-Just clone or download, then open `index.html` in any modern browser.
+Clone the repo and open the homepage locally in any modern browser:
 
 ```bash
 git clone https://github.com/Soumen044/DSP.college.Website-FE.git
@@ -63,21 +68,22 @@ open index.html
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contribution
 
-- Fork the repo
-- Open new branch (e.g., `feature/responsive-improvement`)
-- Commit and push your changes
-- Create a Pull Request for review
+Contributions are welcome! To propose improvements:
 
-Suggestions, bug reports, and visual enhancements are very welcome.
+- Fork this repository
+- Create a feature branch (`feature/your-feature`)
+- Commit your changes
+- Push to your fork
+- Open a Pull Request for review
 
 ---
 
 ## 📜 License
 
-No license specified. Intended for **educational and demonstration** purposes as part of a diploma project.
+This project is mainly intended for **educational and demonstration purposes** as part of a diploma major project. No formal license is specified.
 
 ---
 
-🔹 *Developed by [Soumen044](https://github.com/Soumen044) for Diploma in ITE (WBSCTE)*  
+*Developed by [Soumen044](https://github.com/Soumen044/) for Diploma in Information Technology Engineering, WBSCTE.*
