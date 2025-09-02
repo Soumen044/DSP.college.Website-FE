@@ -11,9 +11,9 @@ This static frontend represents the homepage design for **Dasnagar Government Po
 ```
 DSP.college.Website‑FE/
 ├── index.html          # Core homepage file
-├── css/
-│   └── style.css       # Styling for layout & design
-└── assets/             # Static images used throughout the page
+├── style.css           # Styling for layout & design
+├── README.md         
+└── images/             # Static images used throughout the page
     ├── anti_ragging.png
     ├── board‑collage.jpg (etc.)
     ├── collage‑pic1.png
@@ -21,7 +21,8 @@ DSP.college.Website‑FE/
     ├── harassment.png
     ├── student_welfare.png
     ├── multiple FB_IMG_… .jpg
-    └── IMG‑20240806‑WA0003.jpg
+    ├── IMG‑20240806‑WA0003.jpg
+    └── ..
 ```
 
 ---
