@@ -49,10 +49,10 @@ Below is the college logo and sample visuals incorporated in the homepage. Repla
   </tr>
   <tr>
     <td align="center">
-      <img src="images/IMG-20240806-WA0003.jpg" alt="College Logo" width="150"/>
+      <img src="images/IMG-20240806-WA0003.jpg" alt="College Logo" width="100%"/>
     </td>
     <td align="center">
-      <img src="images/DSP_Banner.jpg" alt="College Banner" width="600"/>
+      <img src="images/DSP_Banner.jpg" alt="College Banner" width="100%"/>
     </td>
   </tr>
 </table>
