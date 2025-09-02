@@ -1,35 +1,6 @@
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  <h1 style="flex: 0 0 80%; margin: 0;">DSP.college.Website-FE</h1>
-  <a href="https://soumen044.github.io/DSP.college.Website-FE/" target="_blank" 
-     style="flex: 0 0 20%; text-align: right; text-decoration: none;">
-    <button style="
-      background: linear-gradient(90deg, #ccc, #ccc);
-      border: none;
-      border-radius: 30px;
-      color: black;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background 0.5s ease;">
-      🚀 Live Demo
-    </button>
-  </a>
-</div>
+# DSP.college.Website-FE
 
-<script>
-  const btn = document.querySelector("button");
-  btn.addEventListener("mouseover", () => {
-    btn.style.background = "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)";
-    btn.style.color = "white";
-  });
-  btn.addEventListener("mouseout", () => {
-    btn.style.background = "linear-gradient(90deg, #ccc, #ccc)";
-    btn.style.color = "black";
-  });
-</script>
-
-
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Now-lightgray?style=for-the-badge)](https://soumen044.github.io/DSP.college.Website-FE/)
 
 ## 📖 Overview
 
