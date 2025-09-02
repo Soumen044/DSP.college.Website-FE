@@ -1,6 +1,6 @@
 # DSP.college.Website-FE
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Now-lightgray?style=for-the-badge)](https://soumen044.github.io/DSP.college.Website-FE/)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Now-yellow?style=for-the-badge)](https://soumen044.github.io/DSP.college.Website-FE/)
 
 ## 📖 Overview
 
