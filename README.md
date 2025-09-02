@@ -1,5 +1,26 @@
 # DSP.college.Website-FE
 
+<p align="center">
+  <a href="https://soumen044.github.io/DSP.college.Website-FE/" target="_blank">
+    <button style="
+      background: linear-gradient(90deg, gray, gray);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.4s ease;
+    " 
+    onmouseover="this.style.background='linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)';"
+    onmouseout="this.style.background='linear-gradient(90deg, gray, gray)';">
+      🚀 Live Demo
+    </button>
+  </a>
+</p>
+
+
 ## 📖 Overview
 
 This static frontend project represents the homepage design for **Dasnagar Government Polytechnic College**. It was developed as a 5th Semester major project during the Diploma in Information Technology Engineering (ITE) program under **WBSCTE**.
