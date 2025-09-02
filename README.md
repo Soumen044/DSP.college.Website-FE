@@ -44,15 +44,11 @@ Below is the college logo and sample visuals incorporated in the homepage. Repla
 
 ### College Logo
 
-![Dasnagar Government Polytechnic College Logo](images/logo.png)
+![Dasnagar Government Polytechnic College Logo](images/IMG-20240806-WA0003.jpg)
 
-### Some Key Images Used
+### Desktop view
 
-- Anti-Ragging:
-  ![Anti-Ragging](images/anti_ragging.png)
-
-- Student Welfare:
-  ![Student Welfare](images/student_welfare.png)
+![DSP Website](images/DSP_WEB_front.png)
 
 ---
 
