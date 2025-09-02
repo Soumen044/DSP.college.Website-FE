@@ -48,7 +48,7 @@ Below is the college logo and sample visuals incorporated in the homepage. Repla
 
 ### College Banner
 
-![Dasnagar Government Polytechnic College Banner](images/DSP_Banner.jpg)
+<img src="images/DSP_Banner.jpg" alt="College Banner" width="70%"/>
 
 ### Desktop view
 
