@@ -42,13 +42,20 @@ DSP.college.Website-FE/
 
 Below is the college logo and sample visuals incorporated in the homepage. Replace the placeholder paths with your actual image file names as needed.
 
-### College Logo
-
-<img src="images/IMG-20240806-WA0003.jpg" alt="College Logo" width="200"/>
-
-### College Banner
-
-<img src="images/DSP_Banner.jpg" alt="College Banner" width="70%"/>
+<table>
+  <tr>
+    <th width="30%">College Logo</th>
+    <th width="70%">College Banner</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/IMG-20240806-WA0003.jpg" alt="College Logo" width="150"/>
+    </td>
+    <td align="center">
+      <img src="images/DSP_Banner.jpg" alt="College Banner" width="600"/>
+    </td>
+  </tr>
+</table>
 
 ### Desktop view
 
