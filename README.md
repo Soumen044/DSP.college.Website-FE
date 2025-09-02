@@ -2,7 +2,7 @@
 
 ## 📖 Overview
 
-This static frontend represents the homepage design for **Dasnagar Government Polytechnic College**—created as a major project during the 5th semester of the **Information Technology Engineering (ITE)** diploma program under **WBSCTE**. A clean, responsive layout ideal for academic presentations or prototyping.
+This static frontend represents the homepage design for **Dasnagar Government Polytechnic College**—created as a Internship project during the 3rd semester of the **Information Technology Engineering (ITE)** diploma program under **WBSCTE**. A clean, responsive layout ideal for academic presentations or prototyping.
 
 ---
 
